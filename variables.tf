@@ -7,6 +7,7 @@ variable "environment" {
 }
 
 variable "component" {
+    type = string
 }
 
 variable "domain" {
@@ -14,5 +15,5 @@ variable "domain" {
 }
 
 variable "rule_priority" {
-    
+    type = number
 }
