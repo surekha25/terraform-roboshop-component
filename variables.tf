@@ -7,7 +7,6 @@ variable "environment" {
 }
 
 variable "component" {
-
 }
 
 variable "domain" {
