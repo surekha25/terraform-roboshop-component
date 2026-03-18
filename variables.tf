@@ -7,7 +7,7 @@ variable "environment" {
 }
 
 variable "component" {
-    type = list
+    type = map
 }
 
 variable "domain" {
